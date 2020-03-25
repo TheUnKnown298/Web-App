@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/stye.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img src="image/d.png" height="30px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href ="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href ="#">bout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href ="#">me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Dropdown link</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">a</a>
+                            <a class="dropdown-item" href="#">b</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">     
+        <div class="searchbar">
+            <select class="location">
+                <option value="0">Select</option>
+                <option value="1">Hanoi</option>
+                <option value="2">Hai Phong</option>
+            </select>
+            <input type="text" placeholder="Search">
+            <select class="searchtype">
+                <option value="0">Select</option>
+                <option value="1">Restaurant</option>
+                <option value="2">Explore</option>
+            </select>
+        </div>
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1" ></li>
+                <li data-target="#slides" data-slide-to="2" ></li>
+                <li data-target="#slides" data-slide-to="3" ></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/0.png">
+                    <div class="carousel-caption">
+                        <h1>Lalala</h1>
+                        <p></p>
+                        <button type="button" class="btn btn-danger" >
+                            Click
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="image/1.jpg">
+                </div>
+                <div class="carousel-item ">
+                    <img src="image/2.jpg">
+                </div>
+                <div class="carousel-item ">
+                    <img src="image/bb.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
+            
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/lights.jpg">
+                            <img src="image/0.png" alt="Lights" style="width:100%">
+                              <div class="textbox">
+                                <p>Lorem ipsum...</p>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/nature.jpg">
+                            <img src="image/1.jpg" alt="Nature" style="width:100%">
+                              <div class="textbox">
+                                <p>Lorem ipsum...</p>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/fjords.jpg">
+                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                          <div class="textbox">
+                            <p>Lorem ipsum...</p>
+                          </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="allgallery">
+                <a href="#">See also &#x022D7;</a>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
+            
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/lights.jpg">
+                            <img src="image/0.png" alt="Lights" style="width:100%">
+                              <div class="textbox">
+                                <p>Lorem ipsum...</p>
+                              </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/nature.jpg">
+                            <img src="image/1.jpg" alt="Nature" style="width:100%">
+                              <div class="textbox">
+                                <p>Lorem ipsum...</p>
+                              </div>
+                        </a>
+                        
+                            
+                    </div>
+                    <button class="booktable">Book Table Now!</button>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/fjords.jpg">
+                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                          <div class="textbox">
+                            <p>Lorem ipsum...</p>
+                            <p>Lalalalalal</p>
+                          </div>
+                        </a>
+                        
+                        
+                       
+                    </div>
+                    <p id="discount">Lalalalalal<br>dadsadasda</p>
+                    <button class="booktable">Book Table Now!</button>
+                </div>
+            </div>
+            <div class="allgallery">
+                <a href="#">See also &#x022D7;</a>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
