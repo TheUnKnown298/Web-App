@@ -11,13 +11,20 @@ html, body{
 
 .navbar{
     background-color: rgb(242, 115, 118) !important;
+    padding-right: 80px;
 }
 
 .navbar li a{
     color: black !important;
 }
+.navbar li{
+    margin-right: auto !important;
+}
 .navbar li a:hover{
     color: blue !important;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
 }
 
 .carousel {
@@ -49,10 +56,13 @@ html, body{
     padding: 5px 5px 5px 5px;
     display: block;
     border: solid black;
+    border-radius: 54px;
     background-color: aliceblue;
+    width: fit-content;
+    min-width:100%;
 }
 .searchbar input{
-    width: 40%;
+    width:20%;
 }
 
 .gallery{
@@ -71,11 +81,33 @@ html, body{
 
 .location{
     width: 10%;
+    border: #4E9CAF;
 }
 
 .searchtype{
     width: 10%;
+    border: #4E9CAF;
 }
+
+.sbutton{
+    width: 90px;
+    height: 35px;
+    background: #4E9CAF;
+    border-radius: 34px;
+    margin-left: 10px;
+}
+
+.sbutton :hover{
+    background-color: lightcoral ;
+}
+.phone{
+    font-size: larger;
+    font-weight: bolder;
+    color: red;
+    margin-top: 5px;
+
+}
+
 .imagecontainer{
     position: relative;
 
@@ -103,7 +135,7 @@ html, body{
 }
 .allgallery{
     position: sticky;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .allgallery a{
     color: red;
@@ -133,4 +165,17 @@ html, body{
 .col-md-4 #discount{
     margin-top: 20px;
     color: blueviolet;
+}
+.footer{
+    background-color: lightcoral;
+}
+
+.infor{
+    height: 50vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: gray;
+    padding-top: 2vh;
+    padding-left: 3vh;
+
 }

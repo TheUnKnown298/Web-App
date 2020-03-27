@@ -8,53 +8,156 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/stye.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
             <a class="navbar-branch" href="#">
                 <img src="image/d.png" height="30px">
             </a>
+            <li class="nav-item dropdown">
+                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;">Member</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Login</a>
+                    <a class="dropdown-item" href="#">Sign Up</a>
+                </div>
+            </li>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href ="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href ="#">bout</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href ="#">me</a>
+                        <a class="nav-link" href ="#">Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Dropdown link</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Culinary</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">a</a>
-                            <a class="dropdown-item" href="#">b</a>
+                            <a class="dropdown-item" href="#">Restaurant</a>
+                            <a class="dropdown-item" href="#">Hot Pot</a>
+                            <a class="dropdown-item" href="#">Buffet</a>
+                            <a class="dropdown-item" href="#">Seafood</a>
+                            <a class="dropdown-item" href="#">Hot Pot and Grill</a>
+                            <a class="dropdown-item" href="#">Pub</a>
+                            <a class="dropdown-item" href="#">Vegetarian Food</a>
+                            <a class="dropdown-item" href="#">Vietnamese Food</a>
+                            <a class="dropdown-item" href="#">Book for Feast</a>
+                            <a class="dropdown-item" href="#">Book for Wedding</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href ="#">Reputable Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href ="#">Hot Discount Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href ="#">Newest Event</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Explore</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Top Buffet</a>
+                            <a class="dropdown-item" href="#">Serial Brand</a>
+                            <a class="dropdown-item" href="#">Top Hot Pot and Grill</a>
+                            <a class="dropdown-item" href="#">Top Seafood</a>
+                            <a class="dropdown-item" href="#">Top Feast Booking</a>
+                            <a class="dropdown-item" href="#">Top Vegetarian</a>
+                            <a class="dropdown-item" href="#">Top in Area</a>
+                            <a class="dropdown-item" href="#">Top Restaurant</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pasgo Blog</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">All</a>
+                            <a class="dropdown-item" href="#">Area to Eat</a>
+                            <a class="dropdown-item" href="#">Famous Food and Recipe</a>
+                            <a class="dropdown-item" href="#">Area's Specialty Dishes</a>
+                            <a class="dropdown-item" href="#">Banquet and Event Organization</a>
+                            <a class="dropdown-item" href="#">Beauty and Health</a>
+                            <a class="dropdown-item" href="#">Culinary Stories</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">News</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">All</a>
+                            <a class="dropdown-item" href="#">Pasgo's News</a>
+                            <a class="dropdown-item" href="#">Recruitment</a>
+                            <a class="dropdown-item" href="#">Culinary News</a>
+                            <a class="dropdown-item" href="#">View</a>
+                            <a class="dropdown-item" href="#">About Pasgo</a>
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Video</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">All</a>
+                            <a class="dropdown-item" href="#">Restaurant</a>
+                            <a class="dropdown-item" href="#">Quality Dishes</a>
+                            <a class="dropdown-item" href="#">Chronicle</a>
+                            <a class="dropdown-item" href="#">Pikedup-Stories</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container">     
-        <div class="searchbar">
-            <select class="location">
-                <option value="0">Select</option>
-                <option value="1">Hanoi</option>
-                <option value="2">Hai Phong</option>
-            </select>
-            <input type="text" placeholder="Search">
-            <select class="searchtype">
-                <option value="0">Select</option>
-                <option value="1">Restaurant</option>
-                <option value="2">Explore</option>
-            </select>
-        </div>
+
+
+    <div class="container"> 
+
+
+        <section class="pasgo-search">
+            <div class="searchbar">
+                <div class="row">
+                    <div class="col-md-1.5 selectedtinh" style="margin-left: 15px;">
+                        <div class="input-group" >
+                            <span class="input-group-addon">
+                                    <form action="/Base/ChangeProvince" method="post">                            
+                                            <select class="form-control first" id="provinceId" name="provinceId" onchange="this.form.submit();"style="border-radius: 34px;">
+                                                <option selected value="1">Hà Nội</option>
+                                                <option  value="2">TP.HCM</option>
+                                                <option  value="4">Đà Nẵng</option>
+                                                <option  value="5">Khánh Hòa</option>
+                                            </select>
+                                     </form>                        
+                                </span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-8">
+        <form action="/tim-kiem" class="navbar-form navbar-right bar-bottom" method="get">                    <div class="input-group">
+                                <input id="textSearch" type="text" name="search" class="form-control" placeholder="Buffet, Lẩu & Nướng, Hải sản..." onclick="searchWebsite();" oninput="searchWebsite();" autocomplete="off"style="border-radius: 34px;">
+                                <span class="input-group-addon" style="margin-left: 10px;">    
+                                    <select class="form-control selected" id="slTypeSearch" onchange="typeSearchSelected(this)"style="border-radius: 34px;">
+                                        <option  value="1">Nhà hàng</option>
+                                        <option  value="2">Khám phá</option>
+                                        <option  value="3">Video</option>
+                                    </select> 
+                                </span>
+                                <span class="input-group-addon frm-search">
+                                    <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span> Tìm kiếm</button>
+                                </span>
+                                <!--Kết quả search-->
+                                <div id="result"> </div>
+                            </div>
+        </form>            </div>
+                    <div class="col-md-2">
+                        <div class="phone"><span><i class="fa fa-phone" style="font-size:22px;color:red"></i></span> 1900 6005</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
         <div id="slides" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -119,6 +222,7 @@
                         </a>
                     </div>
                 </div>
+                
             </div>
             <div class="allgallery">
                 <a href="#">See also &#x022D7;</a>
@@ -168,6 +272,54 @@
                     <p id="discount">Lalalalalal<br>dadsadasda</p>
                     <button class="booktable">Book Table Now!</button>
                 </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/fjords.jpg">
+                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                          <div class="textbox">
+                            <p>Lorem ipsum...</p>
+                            <p>Lalalalalal</p>
+                          </div>
+                        </a>
+                        
+                        
+                       
+                    </div>
+                    <p id="discount">Lalalalalal<br>dadsadasda</p>
+                    <button class="booktable">Book Table Now!</button>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/fjords.jpg">
+                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                          <div class="textbox">
+                            <p>Lorem ipsum...</p>
+                            <p>Lalalalalal</p>
+                          </div>
+                        </a>
+                        
+                        
+                       
+                    </div>
+                    <p id="discount">Lalalalalal<br>dadsadasda</p>
+                    <button class="booktable">Book Table Now!</button>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="imagecontainer">
+                        <a href="/w3images/fjords.jpg">
+                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                          <div class="textbox">
+                            <p>Lorem ipsum...</p>
+                            <p>Lalalalalal</p>
+                          </div>
+                        </a>
+                        
+                        
+                       
+                    </div>
+                    <p id="discount">Lalalalalal<br>dadsadasda</p>
+                    <button class="booktable">Book Table Now!</button>
+                </div>
             </div>
             <div class="allgallery">
                 <a href="#">See also &#x022D7;</a>
@@ -176,10 +328,19 @@
         </div>
     </div>
 
+    <div class="footer">
+        <div class="infor">
+            <div class="col-md-2" style="background-color: red;">
+                ladlkasdksalkdksla
+            </div>
+        </div>
+    </div>
+
 
 
 
 </body>
+
 
 
 
