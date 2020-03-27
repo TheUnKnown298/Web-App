@@ -18,12 +18,16 @@
                 <img src="image/d.png" height="30px">
             </a>
             <li class="nav-item dropdown">
-                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;">Member</button>
+                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Login</a>
                     <a class="dropdown-item" href="#">Sign Up</a>
                 </div>
             </li>
+            <div class="navsearch">
+                <input type="text" placeholder="Find" style="border-radius: 34px;text-align:center">
+                <i class="fa fa-search"></i>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -132,16 +136,16 @@
                     
                     <div class="col-md-8">
         <form action="/tim-kiem" class="navbar-form navbar-right bar-bottom" method="get">                    <div class="input-group">
-                                <input id="textSearch" type="text" name="search" class="form-control" placeholder="Buffet, Lẩu & Nướng, Hải sản..." onclick="searchWebsite();" oninput="searchWebsite();" autocomplete="off"style="border-radius: 34px;">
+                                <input id="textSearch" type="text" name="search" class="form-control" placeholder="Buffet, Hot Pot and Grill, Seafood..." onclick="searchWebsite();" oninput="searchWebsite();" autocomplete="off"style="border-radius: 34px;">
                                 <span class="input-group-addon" style="margin-left: 10px;">    
                                     <select class="form-control selected" id="slTypeSearch" onchange="typeSearchSelected(this)"style="border-radius: 34px;">
-                                        <option  value="1">Nhà hàng</option>
-                                        <option  value="2">Khám phá</option>
+                                        <option  value="1">Restaurant</option>
+                                        <option  value="2">Explore</option>
                                         <option  value="3">Video</option>
                                     </select> 
                                 </span>
                                 <span class="input-group-addon frm-search">
-                                    <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span> Tìm kiếm</button>
+                                    <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span>Search</button>
                                 </span>
                                 <!--Kết quả search-->
                                 <div id="result"> </div>
@@ -359,7 +363,7 @@
                     </span><br>
                     <p></p><br>
                     <h4>Verified Brand</h4>
-                    <a href="#">
+                    <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=16895" target="blank">
                         <img src="https://lh3.googleusercontent.com/proxy/tRWbi-spfdPLoRlgAkmsKKLNpekBLEdWYRihbS-cRt4kNtMUJxbQvwYcq_2LtY9DGc4rVOHsk8hnE3c3UdiQJ9IKHa3AD3ny27VJ3aGlW0_H_f0osBa3" style="height: 60px; width:150px;">
                     </a>
                 </div>

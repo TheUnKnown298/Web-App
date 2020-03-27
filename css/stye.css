@@ -201,8 +201,21 @@ html, body{
     padding-top: 5px;
 }
 .emailsm{
-    border: 1px solid red;
+    border: 1px solid gray;
     border-radius: 34px;
     text-align: center;
     padding: 6px;
+    background-color: lightgray;
+}
+.navsearch{
+    background-color: white;
+    border-radius: 34px;
+    border: 1px solid black;
+}
+.navsearch i{
+    color: black;
+    margin-right: 6px;
+}
+.navsearch input{
+    border: none;
 }
