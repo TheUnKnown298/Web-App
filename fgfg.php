@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/stye.css">
 </head>
 <body>
+    <?php include('errors.php'); ?>    
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
             <a class="navbar-branch" href="#">
@@ -112,225 +113,62 @@
         </div>
     </nav>
 
-
-    <div class="container"> 
-
-
-        <section class="pasgo-search">
-            <div class="searchbar">
-                <div class="row">
-                    <div class="col-md-1.5 selectedtinh" style="margin-left: 15px;">
-                        <div class="input-group" >
-                            <span class="input-group-addon">
-                                    <form action="/Base/ChangeProvince" method="post">                            
-                                            <select class="form-control first" id="provinceId" name="provinceId" onchange="this.form.submit();"style="border-radius: 34px;">
-                                                <option selected value="1">Hà Nội</option>
-                                                <option  value="2">TP.HCM</option>
-                                                <option  value="4">Đà Nẵng</option>
-                                                <option  value="5">Khánh Hòa</option>
-                                            </select>
-                                     </form>                        
-                                </span>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-8">
-        <form action="/tim-kiem" class="navbar-form navbar-right bar-bottom" method="get">                    <div class="input-group">
-                                <input id="textSearch" type="text" name="search" class="form-control" placeholder="Buffet, Hot Pot and Grill, Seafood..." onclick="searchWebsite();" oninput="searchWebsite();" autocomplete="off"style="border-radius: 34px;">
-                                <span class="input-group-addon" style="margin-left: 10px;">    
-                                    <select class="form-control selected" id="slTypeSearch" onchange="typeSearchSelected(this)"style="border-radius: 34px;">
-                                        <option  value="1">Restaurant</option>
-                                        <option  value="2">Explore</option>
-                                        <option  value="3">Video</option>
-                                    </select> 
-                                </span>
-                                <span class="input-group-addon frm-search">
-                                    <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span>Search</button>
-                                </span>
-                                <!--Kết quả search-->
-                                <div id="result"> </div>
-                            </div>
-        </form>            </div>
-                    <div class="col-md-2">
-                        <div class="phone"><span><i class="fa fa-phone" style="font-size:22px;color:red"></i></span> 1900 6005</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#slides" data-slide-to="0" class="active"></li>
-                <li data-target="#slides" data-slide-to="1" ></li>
-                <li data-target="#slides" data-slide-to="2" ></li>
-                <li data-target="#slides" data-slide-to="3" ></li>
-            </ul>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="image/0.png">
-                    <div class="carousel-caption">
-                        <h1>Lalala</h1>
-                        <p></p>
-                        <button type="button" class="btn btn-danger" >
-                            Click
-                        </button>
-                    </div>
-                </div>
-                <div class="carousel-item ">
-                    <img src="image/1.jpg">
-                </div>
-                <div class="carousel-item ">
-                    <img src="image/2.jpg">
-                </div>
-                <div class="carousel-item ">
-                    <img src="image/bb.png">
-                </div>
-            </div>
+	<div class="limiter">
+        <div class="navigate">
+            <a href="index.php">Home Page</a> ➤ Login
         </div>
-
-        <div class="gallery">
-            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
-            
-            <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/lights.jpg">
-                            <img src="image/0.png" alt="Lights" style="width:100%">
-                              <div class="textbox">
-                                <p>Lorem ipsum...</p>
-                              </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/nature.jpg">
-                            <img src="image/1.jpg" alt="Nature" style="width:100%">
-                              <div class="textbox">
-                                <p>Lorem ipsum...</p>
-                              </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
-                          <div class="textbox">
-                            <p>Lorem ipsum...</p>
-                          </div>
-                        </a>
-                    </div>
-                </div>
+		<div class="container-login" >
+			<div class="">
+				<form class="" method="post" action="login.php"  autocomplete="off">
+					
+                    <div class="p-t-31 p-b-9" style="margin-top: 4vh">
+						<span class="txt1">
+                            Phone Number
                 
-            </div>
-            <div class="allgallery">
-                <a href="#">See also &#x022D7;</a>
-            </div>
-        </div>
+						</span>
+					</div>
+					<div>
+						<input class="uname" type="text" name="username">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="p-t-13 p-b-9" style="margin-top: 4vh">
+						<span class="txt1">
+                            Password
+    
+						</span>
 
-        <div class="gallery">
-            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
-            
-            <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/lights.jpg">
-                            <img src="image/0.png" alt="Lights" style="width:100%">
-                              <div class="textbox">
-                                <p>Lorem ipsum...</p>
-                              </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/nature.jpg">
-                            <img src="image/1.jpg" alt="Nature" style="width:100%">
-                              <div class="textbox">
-                                <p>Lorem ipsum...</p>
-                              </div>
-                        </a>
-                        
-                            
-                    </div>
-                    <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
-                          <div class="textbox">
-                            <p>Lorem ipsum...</p>
-                            <p>Lalalalalal</p>
-                          </div>
-                        </a>
-                        
-                        
-                       
-                    </div>
-                    <p id="discount">Lalalalalal<br>dadsadasda</p>
-                    <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
-                          <div class="textbox">
-                            <p>Lorem ipsum...</p>
-                            <p>Lalalalalal</p>
-                          </div>
-                        </a>
-                        
-                        
-                       
-                    </div>
-                    <p id="discount">Lalalalalal<br>dadsadasda</p>
-                    <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
-                          <div class="textbox">
-                            <p>Lorem ipsum...</p>
-                            <p>Lalalalalal</p>
-                          </div>
-                        </a>
-                        
-                        
-                       
-                    </div>
-                    <p id="discount">Lalalalalal<br>dadsadasda</p>
-                    <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <div class="imagecontainer">
-                        <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
-                          <div class="textbox">
-                            <p>Lorem ipsum...</p>
-                            <p>Lalalalalal</p>
-                          </div>
-                        </a>
-                        
-                        
-                       
-                    </div>
-                    <p id="discount">Lalalalalal<br>dadsadasda</p>
-                    <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
+						<a href="#" class="txt2 bo1 m-l-5">
+							Forgot?
+						</a>
+					</div>
+					<div>
+						<input class="pwd" type="password" name="pwd" >
+						<span class="focus-input100"></span>
+					</div>
 
-                </div>
-            </div>
-            <div class="allgallery">
-                <a href="#">See also &#x022D7;</a>
-                
-            </div>
-        </div>
+					<div class="">
+						<button type="submit" class="loginbtn" name="login_user">
+							Sign In
+						</button>
+					</div>
+					<div class="w-full text-center p-t-55">
+						<span class="txt2">
+							Not a member?
+						</span>
+
+						<a href="register.php" class="txt2 bo1">
+							Sign up now
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+    
+    <div class="instructor">
+        <a></a>
+        <img src="image/gd.png">
     </div>
 
     <div class="footer">
@@ -395,13 +233,5 @@
     </div>
 
 
-
-
 </body>
-
-
-
-
-
-
 </html>

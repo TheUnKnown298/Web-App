@@ -153,6 +153,9 @@ html, body{
     text-align: center;
     margin-left: 19%;
 }
+.booktable a{
+    color: black;
+}
 .booktable:hover{
     background-color: lightcoral;
 }
@@ -218,4 +221,45 @@ html, body{
 }
 .navsearch input{
     border: none;
+}
+.container-login{
+
+    text-align: center;
+
+}
+.limiter{
+    background-color: coral;
+    margin:1vh auto 0 auto;
+    min-height: 70%;
+    width: 40%;
+}
+.loginbtn{
+    background-color: #4E9CAF;
+    width: 30vw;
+    margin-top: 2vh;
+    height: 4vh;
+    margin-bottom: 0.5vh;
+}
+.loginbtn:hover{
+    background-color: aqua;
+}
+.uname{
+    width: 30vw;
+    height: 4.5vh;
+}
+.pwd{
+    width: 30vw;
+    height: 4.5vh;
+}
+.navigate{
+    margin: 1vh auto auto 1vw;
+    background-color: black;
+    color: red;
+}
+.instructor{
+    background-color: blue;
+    height: 1000px;
+    margin: 1vh 5vw auto 5vw;
+    text-align: center;
+    align-content: center;
 }
