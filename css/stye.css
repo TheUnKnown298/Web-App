@@ -158,6 +158,9 @@ html, body{
 .booktable a{
     color: black;
 }
+.booktable a{
+    color: black;
+}
 .booktable:hover{
     background-color: lightcoral;
 }
