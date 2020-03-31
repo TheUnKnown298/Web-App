@@ -11,7 +11,7 @@ html, body{
 
 .navbar{
     background-color: rgb(242, 115, 118) !important;
-    padding-right: 80px;
+    padding-right: 3vw;
 }
 
 .navbar li a{
@@ -28,13 +28,13 @@ html, body{
 }
 
 .carousel {
-    padding: 10px 7px 10px 7px ;
-    margin: 5px ;
-    max-height: 350px;
+    padding: 2vh 1vh 2vh 1vh ;
+    margin: 1vh ;
+    max-height: max-content;
     background-color: aliceblue;
 }
 .carousel-inner{
-    max-height: 300px;
+    max-height: 50vh;
 }
 .carousel-inner img{
     width: 100%;
@@ -52,8 +52,8 @@ html, body{
     font-size: smaller;
 }
 .searchbar{
-    margin:50px 0 30px 0;
-    padding: 5px 5px 5px 5px;
+    margin:2vh 0 2vh 0;
+    padding: 1vh;
     display: block;
     border: solid black;
     border-radius: 54px;
@@ -69,13 +69,13 @@ html, body{
     margin-top: 2rem;
     position: relative;
     background-color: aliceblue;
-    padding: 20px;
+    padding: 2vw;
     height: max-content;
 }
 
 .gallery h1{
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 1vh;
+    margin-left: 1vw;
     color: black;
 }
 
@@ -90,21 +90,21 @@ html, body{
 }
 
 .sbutton{
-    width: 90px;
-    height: 35px;
+    width: 4vw;
+    height: 4vh;
     background: #4E9CAF;
     border-radius: 34px;
-    margin-left: 10px;
+    margin-left: 0.5vw;
 }
 
-.sbutton :hover{
+.sbutton:hover{
     background-color: lightcoral ;
 }
 .phone{
     font-size: larger;
     font-weight: bolder;
     color: red;
-    margin-top: 5px;
+    margin-top: 0.5vh;
 
 }
 
@@ -116,13 +116,13 @@ html, body{
 .textbox{
         opacity: 0.4;
         position: absolute;
-        bottom: 10px;
+        bottom: 1vh;
         margin: 0 5% 0 5%;
         width: 90%;
         background-color: black;
         color: white;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 2vw;
+        padding-right: 2vw;
         text-align: center;
 
 
@@ -135,7 +135,7 @@ html, body{
 }
 .allgallery{
     position: sticky;
-    margin-top: 100px;
+    margin-top: 2vh;
 }
 .allgallery a{
     color: red;
@@ -144,14 +144,19 @@ html, body{
 
 .booktable{
     display: block;
-    width: 200px;
-    height: 50px;
+    width: 11vw;
+    height: 6vh;
     background: #4E9CAF;
     border-radius: 12px;
-    position: absolute; 
-    margin-top: 5px;
+    position: relative; 
+    margin-top: 1vh;
     text-align: center;
     margin-left: 19%;
+    margin-bottom: 3vh;
+    font-size: 1rem;
+}
+.booktable a{
+    color: black;
 }
 .booktable:hover{
     background-color: lightcoral;
@@ -163,7 +168,7 @@ html, body{
     vertical-align: middle;
 }
 .col-md-4 #discount{
-    margin-top: 20px;
+    margin-top: 2vh;
     color: blueviolet;
 }
 .footer{
@@ -192,21 +197,23 @@ html, body{
 }
 .infor i{
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     border: 1px solid black;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 2vw;
+    height: 4.5vh;
     background-color: aqua;
-    padding-top: 5px;
+    padding-top: 0.5vh;
 }
 .emailsm{
     border: 1px solid gray;
     border-radius: 34px;
     text-align: center;
-    padding: 6px;
+    padding: 1vh 0.5vw 1vh 1vh;
+
     background-color: lightgray;
 }
+.sbutton
 .navsearch{
     background-color: white;
     border-radius: 34px;
@@ -214,8 +221,58 @@ html, body{
 }
 .navsearch i{
     color: black;
-    margin-right: 6px;
+    margin-left: 1vw;
 }
 .navsearch input{
     border: none;
+}
+.container-login{
+
+    text-align: center;
+
+}
+.limiter{
+    background-color: coral;
+    margin:1vh auto 0 auto;
+    min-height: 70%;
+    width: 40%;
+}
+.loginbtn{
+    background-color: #4E9CAF;
+    width: 30vw;
+    margin-top: 2vh;
+    height: 4vh;
+    margin-bottom: 0.5vh;
+}
+.loginbtn:hover{
+    background-color: aqua;
+}
+.uname{
+    width: 30vw;
+    height: 4.5vh;
+}
+.pwd{
+    width: 30vw;
+    height: 4.5vh;
+}
+.navigate{
+    margin: 1vh auto auto 1vw;
+    background-color: black;
+    color: red;
+}
+.instructor{
+    background-color: blue;
+    height: 10vh;
+    margin: 1vh 5vw auto 5vw;
+    text-align: center;
+    align-content: center;
+}
+.navsearchbtn{
+    width: 5vw;
+    height: fit-content;
+    border-radius: 34px;
+
+}
+.navsearchbtn:hover{
+    background-color: rgb(144, 230, 87);
 }
