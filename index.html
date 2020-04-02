@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,29 +12,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
-            <a class="navbar-branch" href="./index.php">
-                <img src="fullHome/home.png" >
+            <a class="navbar-branch" href="#">
+                <img src="fullHome/home.png" height="40vh">
             </a>
-			
             <li class="nav-item dropdown">
-                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" 
-						style="background-color: lightcyan; border:none;position: relative; 
-						margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;
-						margin-right:10px">Tài khoản</button>
+                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./login.php">Login</a>
-                    <a class="dropdown-item" href="./register.php">Sign Up</a>
+                    <a class="dropdown-item" href="login.php">Login</a>
+                    <a class="dropdown-item" href="register.php">Sign Up</a>
                 </div>
             </li>
-            
+            <div class="navsearch">
+                <input type="text" placeholder="Find" style="border-radius: 34px;text-align:center">
+                <button type="submit" class="navsearchbtn">Search<i class="fa fa-search"></i></button>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-			
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href ="#">Gallery</a>
@@ -121,7 +115,7 @@
 
     <div class="container"> 
 
-	
+
         <section class="pasgo-search">
             <div class="searchbar">
                 <div class="row">
@@ -151,7 +145,7 @@
                                     </select> 
                                 </span>
                                 <span class="input-group-addon frm-search">
-                                    <button type="submit" class="sbutton" style="color:rgb(255,255,255)"><span class="pasgo-icondesktop-search"></span>Tìm kiêm</button>
+                                    <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span>Search</button>
                                 </span>
                                 <!--Kết quả search-->
                                 <div id="result"> </div>
