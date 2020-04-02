@@ -154,7 +154,7 @@
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Username is required">
-						<input class="uname" type="text" name="username" >
+						<input class="uname" type="text" name="phone" >
 						<span class="focus-input100"></span>
 					</div>
 	
@@ -171,7 +171,7 @@
 					</div>
 					<div>
                     <div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="pwd" type="password" name="pwd" >
+						<input class="pwd" type="password" name="pass" >
 						<span class="focus-input100"></span>
 					</div>
 					</div>
