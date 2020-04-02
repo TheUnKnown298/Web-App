@@ -44,12 +44,12 @@
 					
 					<div class="p-t-31 p-b-9">
 						<span class="txt1">
-                            Username
+                            Phone number
                 
 						</span>
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Username is required">
-						<input class="input100" type="text" name="username" >
+					<div class="wrap-input100 validate-input" data-validate = "Phone number is required">
+						<input class="input100" type="text" name="phone" >
 						<span class="focus-input100"></span>
 					</div>
 					
@@ -64,7 +64,7 @@
 						</a>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pwd" >
+						<input class="input100" type="password" name="pass" >
 						<span class="focus-input100"></span>
 					</div>
 

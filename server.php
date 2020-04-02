@@ -54,11 +54,11 @@
 
 	// LOGIN USER
 	if (isset($_POST['login_user'])) {
-		$username = mysqli_real_escape_string($db, $_POST['username']);
+		$phone = mysqli_real_escape_string($db, $_POST['phone']);
 		$password = mysqli_real_escape_string($db, md5($_POST['pass']));
 		// die($username . '| ' . $password);
-		if (empty($username)) {
-			array_push($errors, "Username is required");
+		if (empty($phone)) {
+			array_push($errors, "Phone number is required");
 		}
 		if (empty($password)) {
 			array_push($errors, "Password is required");
@@ -66,11 +66,11 @@
 
 		if (count($errors) == 0) {
 			//$password = md5($password;
-			$query = "SELECT * FROM users WHERE username='$username' AND pass='$password'";
+			$query = "SELECT * FROM users WHERE phone='$phone' AND pass='$password'";
 			$results = mysqli_query($db, $query);
 
 			if (mysqli_num_rows($results) == 1) {
-				$_SESSION['username'] = $username;
+				$_SESSION['phone'] = $phone;
 				$_SESSION['pass']=$password;
 				$_SESSION['success'] = "You are now logged in";
 				header('location: index.php');
