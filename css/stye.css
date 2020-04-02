@@ -128,7 +128,7 @@ html, body{
 
 }
 
-.imagecontainer :hover>.textbox{
+.imagecontainer:hover>.textbox{
     color: red;
     opacity: 0.7;
     font-weight: bold;
