@@ -33,9 +33,11 @@
     <?php include('errors.php'); ?>    
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
-            <a class="navbar-branch" href="#">
-                <img src="image/d.png" height="30px">
-            </a>
+            <div class="branch">
+                <a class="navbar-branch" href="index.php">
+                    <img src="fullHome/home.png" height="40px">
+                </a>
+            </div>
             <li class="nav-item dropdown">
                 <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
                 <div class="dropdown-menu">

@@ -14,9 +14,11 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
-            <a class="navbar-branch" href="#">
-                <img src="fullHome/home.png" height="40vh">
-            </a>
+            <div class="branch">
+                <a class="navbar-branch" href="index.php">
+                    <img src="fullHome/home.png" height="40px">
+                </a>
+            </div>
             <li class="nav-item dropdown">
                 <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
                 <div class="dropdown-menu">
@@ -171,7 +173,7 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="image/0.png">
+                    <img src="fullHome/3-cach-lam-banh-trung-thu-de-lam-an-tai-nha-hay-lam-qua-deu-duoc-400-43590171546.jpg">
                     <div class="carousel-caption">
                         <h1>Lalala</h1>
                         <p></p>
@@ -181,13 +183,13 @@
                     </div>
                 </div>
                 <div class="carousel-item ">
-                    <img src="image/1.jpg">
+                    <img src="fullHome/7-mau-trang-tri-sinh-nhat-cho-be-trai-tai-nha-voi-xe-o-to-cool-ngau-400-204127014025.jpg">
                 </div>
                 <div class="carousel-item ">
-                    <img src="image/2.jpg">
+                    <img src="fullHome/an-gi-o-sai-gon-ngon-re-top-20-noi-tieng-nay-la-cau-tra-loi-400-182525014114.jpg">
                 </div>
                 <div class="carousel-item ">
-                    <img src="image/bb.png">
+                    <img src="fullHome/day-la-cac-mon-dac-san-ha-noi-noi-tieng-nhat-may-chuc-nam-qua-400-152694113942.jpg">
                 </div>
             </div>
         </div>
@@ -199,7 +201,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/lights.jpg">
-                            <img src="image/0.png" alt="Lights" style="width:100%">
+                            <img src="image/ban-do-cha-ca-ha-noi-giam-toi-50-300-10916992ee7fa438-c8c6-462f-9cda-ef72804f13f5.jpg" alt="Lights" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -209,7 +211,7 @@
                 <div class="col-md-4">
                     <div class="imagecontainer">
                         <a href="/w3images/nature.jpg">
-                            <img src="image/1.jpg" alt="Nature" style="width:100%">
+                            <img src="image/bia-thu-cong-bia-cua-nguoi-sanh-dieu-giam-toi-52-300-10634942673e8ae8-afdb-4fd3-bccf-d2e8e41a8571.jpg" alt="Nature" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -219,7 +221,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="image/binh-dan-300-19053775573eee85-16e2-419f-85de-2648c278798f.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                           </div>
@@ -240,7 +242,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/lights.jpg">
-                            <img src="image/0.png" alt="Lights" style="width:100%">
+                            <img src="image/buffet-duoi-200-000-vnd-300-12052388ef42b51-ee96-4470-9e28-08a1de731f8b.jpg" alt="Lights" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -254,7 +256,7 @@
                 <div class="col-md-4">
                     <div class="imagecontainer">
                         <a href="/w3images/nature.jpg">
-                            <img src="image/1.jpg" alt="Nature" style="width:100%">
+                            <img src="image/buffet-lau-ufo-tu-145k-nguoi-tai-food-house-300-11272582842fe1e6-9507-4c58-9823-a0048771d914.jpg" alt="Nature" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -269,8 +271,8 @@
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
-                        <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <a href="/w3images/.jpg">
+                        <img src="image/cao-luong-nao-bang-com-nha-nhi-giam-toi-50-300-120652891cba0b0f-1abb-4992-8eaa-4c2b729afc95.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
@@ -289,7 +291,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="image/choi-dau-an-gi-ngay-cuoi-tuan-giam-den-50-300-156725794e86dd97-01d7-4344-b6e8-75f1c78ee6f7.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
@@ -305,7 +307,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="image/dat-tiec-tet-duong-lich-300-9217558200cd490-bc06-4a98-8a24-c52b09e5414c.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
@@ -321,7 +323,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="image/quan-ngon-dan-van-phong-300-19441885224a0b79-e9c7-4f4c-a94e-ddfc395584eb.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
