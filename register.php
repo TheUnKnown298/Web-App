@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>ShopCon Registration</title>
+    <title>Đăng ký thành viên PasGo</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -34,6 +34,26 @@
         <div class="input-group">
             <label>Confirm password</label>
             <input class= "input100" type="password" name="password_2">
+            <span class="focus-input100"></span>
+        </div>
+		 <div class="input-group">
+            <label>Số điện thoại</label>
+            <input type="phone" name="phone" value="<?php echo $phone; ?>">
+            <span class="focus-input100"></span>
+        </div>
+		 <div class="input-group">
+            <label>Tỉnh</label>
+            <input type="" name="province" value="<?php echo $province; ?>">
+            <span class="focus-input100"></span>
+        </div>
+		 <div class="input-group">
+            <label>Quốc gia</label>
+            <input type="" name="national" value="<?php echo $national; ?>">
+            <span class="focus-input100"></span>
+        </div>
+		 <div class="input-group">
+            <label>Giới tính</label>
+            <input type="" name="gender" value="<?php echo $gender; ?>">
             <span class="focus-input100"></span>
         </div>
         <div class="input-group">

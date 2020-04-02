@@ -117,9 +117,9 @@
         <div class="navigate">
             <a href="index.php">Home Page</a> ➤ Login
         </div>
-		<div class="container-login" >
-			<div class="">
-				<form class="" method="post" action="login.php"  autocomplete="off">
+		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+				<form class="login100-form validate-form flex-sb flex-w" method="post" action="login.php">
 					
                     <div class="p-t-31 p-b-9" style="margin-top: 4vh">
 						<span class="txt1">
