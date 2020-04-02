@@ -377,7 +377,7 @@
                     <p></p><br>
                     <h4>Verified Brand</h4>
                     <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=16895" target="blank">
-                        <img src="https://lh3.googleusercontent.com/proxy/tRWbi-spfdPLoRlgAkmsKKLNpekBLEdWYRihbS-cRt4kNtMUJxbQvwYcq_2LtY9DGc4rVOHsk8hnE3c3UdiQJ9IKHa3AD3ny27VJ3aGlW0_H_f0osBa3" style="height: 60px; width:150px;">
+                        <img src="image/bocongthuong.png" style="height: 60px; width:150px;">
                     </a>
                 </div>
                 <div class="col-md-4">
