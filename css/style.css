@@ -273,6 +273,7 @@ html, body{
     border-radius: 34px;
     border:2px solid rgb(236, 139, 139);
     box-shadow: 5px 10px 10px bisque;
+    padding-left: 1vh;
 }
 .pwd{
     width: 30vw;
@@ -280,6 +281,7 @@ html, body{
     height: 4.5vh;
     border:2px solid rgb(236, 139, 139);
     box-shadow: 5px 10px 10px bisque;
+    padding-left: 1vh;
 }
 .navigate{
     margin: 1vh auto auto 0vw;
