@@ -1,3 +1,20 @@
+<?php include('server.php') ?>
+<?php 
+
+	if (!isset($_SESSION['username'])) {
+		$_SESSION['msg'] = "You must log in first";
+		header('location: login.php');
+	}
+
+	if (isset($_GET['logout'])) {
+		session_destroy();
+		unset($_SESSION['username']);
+		header("location: login.php");
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,11 +29,13 @@
     <link rel="stylesheet" href="css/stye.css">
 </head>
 <body>
+	
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
             <a class="navbar-branch" href="#">
-                <img src="image/d.png" height="40vh">
+                <img src="https://www.dropbox.com/s/cwpzx7p251mz8ff/80635478_1455674667914298_3853063230515576832_n.jpg?dl=0" height="40vh">
             </a>
+			<img src="https://photos.app.goo.gl/qUYar9U3xe5TZVdA7">
             <li class="nav-item dropdown">
                 <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
                 <div class="dropdown-menu">
@@ -32,6 +51,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
+			
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href ="#">Gallery</a>
@@ -115,7 +135,7 @@
 
     <div class="container"> 
 
-
+	<img src="https://www.dropbox.com/s/cwpzx7p251mz8ff/80635478_1455674667914298_3853063230515576832_n.jpg?dl=0">
         <section class="pasgo-search">
             <div class="searchbar">
                 <div class="row">

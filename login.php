@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ShopCon Login</title>
-    <!-- <link rel="stylesheet" type="text/css" href="style2.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
@@ -41,19 +41,6 @@
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<form class="login100-form validate-form flex-sb flex-w" method="post" action="login.php">
-					<span class="login100-form-title p-b-53">
-						Sign In With
-					</span>
-
-					<a href="#" class="btn-face m-b-20">
-						<i class="fa fa-facebook-official"></i>
-						Facebook
-					</a>
-
-					<a href="#" class="btn-google m-b-20">
-						<img src="images/icons/icon-google.png" alt="GOOGLE">
-						Google
-					</a>
 					
 					<div class="p-t-31 p-b-9">
 						<span class="txt1">
