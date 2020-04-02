@@ -54,8 +54,8 @@
 
 	// LOGIN USER
 	if (isset($_POST['login_user'])) {
-		$phone = mysqli_real_escape_string($db, $_POST['phone']);
-		$password = mysqli_real_escape_string($db, md5($_POST['pass']));
+		$phone = mysqli_real_escape_string($db, $_POST['username']);
+		$password = mysqli_real_escape_string($db, md5($_POST['pwd']));
 		// die($username . '| ' . $password);
 		if (empty($phone)) {
 			array_push($errors, "Phone number is required");
@@ -81,6 +81,27 @@
 				array_push($errors, "Wrong username/password combination");
 			}
 		}
+	}
+	// SEARCH
+	if (isset($_POST['search'])){
+		$search=$_POST['search'];
+		$search=preg_replace("#[^0-9a-z]#i","",$search);
+		$query=mysql_db_query("SELECT * FROM restaurant_detail WHERE main_menu LIKE '%$search%' OR type_restaurant like '%$search%'");
+		$count=mysql_num_rows($query);
+		if($count == 0){
+			$output='Không có kết quả nào hiển thị!';
+		}else{
+			while($row=mysql_fetch_array($query)){
+				$mon_an=$row['main_menu'];
+				$loai_nha_hang=$row['type_restaurant'];
+				$open_time=$row['open_time'];
+				$close_time=$row['close_time'];
+				
+				
+				$output .= '<div>'.$mon_an. ' ' .$loai_nha_hang.' '.$open_time.' '.$close_time.'</div>';
+			}
+		}
+		print("$output");
 	}
 
 ?>

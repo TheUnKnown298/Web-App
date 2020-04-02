@@ -177,23 +177,17 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="image/0.png">
-                    <div class="carousel-caption">
-                        <h1>Lalala</h1>
-                        <p></p>
-                        <button type="button" class="btn btn-danger" >
-                            Click
-                        </button>
-                    </div>
+                    <img src="fullHome/chuoi-nha-hang-isushi-diem-den-cua-nhung-nguoi-yeu-am-thuc-nhat-116813501031.jpg">
+                    
                 </div>
                 <div class="carousel-item ">
-                    <img src="image/1.jpg">
+                    <img src="fullHome/don-chicken-ga-chuan-vi-han-168060671104.jpg">
                 </div>
                 <div class="carousel-item ">
-                    <img src="image/2.jpg">
+                    <img src="fullHome/chuoi-nha-hang-king-bbq-vua-nuong-han-quoc-117443031097.jpg">
                 </div>
                 <div class="carousel-item ">
-                    <img src="image/bb.png">
+                    <img src="fullHome/chuoi-nha-hang-buk-buk-an-khong-gioi-han-nuong-cang-me-say-91262051069.jpg">
                 </div>
             </div>
         </div>
@@ -205,7 +199,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/lights.jpg">
-                            <img src="image/0.png" alt="Lights" style="width:100%">
+                            <img src="fullHome/asahi-sushi-2770787316.jpg" alt="Lights" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -215,7 +209,7 @@
                 <div class="col-md-4">
                     <div class="imagecontainer">
                         <a href="/w3images/nature.jpg">
-                            <img src="image/1.jpg" alt="Nature" style="width:100%">
+                            <img src="fullHome/ban-do-cha-ca-ha-noi-giam-toi-50-300-10916992ee7fa438-c8c6-462f-9cda-ef72804f13f5.jpg" alt="Nature" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -225,7 +219,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="fullHome/bia-sanh-dieu-tran-khat-chan-300-164056054027.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                           </div>
@@ -240,7 +234,7 @@
         </div>
 
         <div class="gallery">
-            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
+            <h1>Ăn uống| <small><small> <span style="color: red;"> Nhà hàng</span></small></small> <small><small> <span style="color: red;"> Lẩu</span></small></small></h1>
             
             <div class="row">
                 <div class="col-md-4 col-lg-4">
