@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,29 +12,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
-            <a class="navbar-branch" href="./index.php">
-                <img src="fullHome/home.png" >
-            </a>
-			
+            <div class="branch">
+                <a class="navbar-branch" href="index.php">
+                    <img src="fullHome/home.png" height="40px">
+                </a>
+            </div>
             <li class="nav-item dropdown">
-                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" 
-						style="background-color: lightcyan; border:none;position: relative; 
-						margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;
-						margin-right:10px">Tài khoản</button>
+                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./login.php">Login</a>
-                    <a class="dropdown-item" href="./register.php">Sign Up</a>
+                    <a class="dropdown-item" href="login.php">Login</a>
+                    <a class="dropdown-item" href="register.php">Sign Up</a>
                 </div>
             </li>
-            
+            <div class="navsearch">
+                <input type="text" placeholder="Find" style="border-radius: 34px;text-align:center">
+                <button type="submit" class="navsearchbtn">Search<i class="fa fa-search"></i></button>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-			
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href ="#">Gallery</a>
@@ -121,7 +117,7 @@
 
     <div class="container"> 
 
-	
+
         <section class="pasgo-search">
             <div class="searchbar">
                 <div class="row">
@@ -151,7 +147,7 @@
                                     </select> 
                                 </span>
                                 <span class="input-group-addon frm-search">
-                                    <button type="submit" class="sbutton" style="color:rgb(255,255,255)"><span class="pasgo-icondesktop-search"></span>Tìm kiêm</button>
+                                    <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span>Search</button>
                                 </span>
                                 <!--Kết quả search-->
                                 <div id="result"> </div>
@@ -176,6 +172,7 @@
                 <li data-target="#slides" data-slide-to="3" ></li>
             </ul>
             <div class="carousel-inner">
+                <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="fullHome/chuoi-nha-hang-isushi-diem-den-cua-nhung-nguoi-yeu-am-thuc-nhat-116813501031.jpg">
                     
@@ -190,6 +187,7 @@
                     <img src="fullHome/chuoi-nha-hang-buk-buk-an-khong-gioi-han-nuong-cang-me-say-91262051069.jpg">
                 </div>
             </div>
+            </div>
         </div>
 
         <div class="gallery">
@@ -199,7 +197,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/lights.jpg">
-                            <img src="fullHome/asahi-sushi-2770787316.jpg" alt="Lights" style="width:100%">
+                            <img src="image/ban-do-cha-ca-ha-noi-giam-toi-50-300-10916992ee7fa438-c8c6-462f-9cda-ef72804f13f5.jpg" alt="Lights" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -209,7 +207,7 @@
                 <div class="col-md-4">
                     <div class="imagecontainer">
                         <a href="/w3images/nature.jpg">
-                            <img src="fullHome/ban-do-cha-ca-ha-noi-giam-toi-50-300-10916992ee7fa438-c8c6-462f-9cda-ef72804f13f5.jpg" alt="Nature" style="width:100%">
+                            <img src="image/bia-thu-cong-bia-cua-nguoi-sanh-dieu-giam-toi-52-300-10634942673e8ae8-afdb-4fd3-bccf-d2e8e41a8571.jpg" alt="Nature" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -219,7 +217,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="fullHome/bia-sanh-dieu-tran-khat-chan-300-164056054027.jpg" alt="Fjords" style="width:100%">
+                        <img src="image/binh-dan-300-19053775573eee85-16e2-419f-85de-2648c278798f.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                           </div>
@@ -234,13 +232,13 @@
         </div>
 
         <div class="gallery">
-            <h1>Ăn uống| <small><small> <span style="color: red;"> Nhà hàng</span></small></small> <small><small> <span style="color: red;"> Lẩu</span></small></small></h1>
+            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
             
             <div class="row">
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/lights.jpg">
-                            <img src="image/0.png" alt="Lights" style="width:100%">
+                            <img src="image/buffet-duoi-200-000-vnd-300-12052388ef42b51-ee96-4470-9e28-08a1de731f8b.jpg" alt="Lights" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -254,7 +252,7 @@
                 <div class="col-md-4">
                     <div class="imagecontainer">
                         <a href="/w3images/nature.jpg">
-                            <img src="image/1.jpg" alt="Nature" style="width:100%">
+                            <img src="image/buffet-lau-ufo-tu-145k-nguoi-tai-food-house-300-11272582842fe1e6-9507-4c58-9823-a0048771d914.jpg" alt="Nature" style="width:100%">
                               <div class="textbox">
                                 <p>Lorem ipsum...</p>
                               </div>
@@ -269,8 +267,8 @@
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
-                        <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <a href="/w3images/.jpg">
+                        <img src="image/cao-luong-nao-bang-com-nha-nhi-giam-toi-50-300-120652891cba0b0f-1abb-4992-8eaa-4c2b729afc95.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
@@ -289,7 +287,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="image/choi-dau-an-gi-ngay-cuoi-tuan-giam-den-50-300-156725794e86dd97-01d7-4344-b6e8-75f1c78ee6f7.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
@@ -305,7 +303,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="image/dat-tiec-tet-duong-lich-300-9217558200cd490-bc06-4a98-8a24-c52b09e5414c.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
@@ -321,7 +319,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
                         <a href="/w3images/fjords.jpg">
-                        <img src="image/0.png" alt="Fjords" style="width:100%">
+                        <img src="image/quan-ngon-dan-van-phong-300-19441885224a0b79-e9c7-4f4c-a94e-ddfc395584eb.jpg" alt="Fjords" style="width:100%">
                           <div class="textbox">
                             <p>Lorem ipsum...</p>
                             <p>Lalalalalal</p>
@@ -375,7 +373,7 @@
                     <p></p><br>
                     <h4>Verified Brand</h4>
                     <a href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=16895" target="blank">
-                        <img src="https://lh3.googleusercontent.com/proxy/tRWbi-spfdPLoRlgAkmsKKLNpekBLEdWYRihbS-cRt4kNtMUJxbQvwYcq_2LtY9DGc4rVOHsk8hnE3c3UdiQJ9IKHa3AD3ny27VJ3aGlW0_H_f0osBa3" style="height: 60px; width:150px;">
+                        <img src="image/bocongthuong.png" style="height: 60px; width:150px;">
                     </a>
                 </div>
                 <div class="col-md-4">
