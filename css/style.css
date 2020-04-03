@@ -96,7 +96,8 @@ html, body{
 }
 
 .sbutton{
-    width: 4vw;
+    width: fit-content;
+
     height: 4vh;
     background: #4E9CAF;
     border-radius: 34px;
@@ -158,7 +159,7 @@ html, body{
     height: 6vh;
     background: #4E9CAF;
     border-radius: 12px;
-    position: relative; 
+    position: relative;
     margin-top: 1vh;
     text-align: center;
     margin-left: 19%;

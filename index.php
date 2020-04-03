@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,27 +17,24 @@
         <div class="container-fluid">
             <div class="branch">
                 <a class="navbar-branch" href="index.php">
-                    <img src="fullHome/home.png" height="40px">
+                    <img src="fullHome/home.png" height="30px">
                 </a>
             </div>
             <li class="nav-item dropdown">
-                <button class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
+                <button class="nav-link dropdown-toggle" href="login.php" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
+
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="login.php">Login</a>
                     <a class="dropdown-item" href="register.php">Sign Up</a>
                 </div>
             </li>
-            <div class="navsearch">
-                <input type="text" placeholder="Find" style="border-radius: 34px;text-align:center">
-                <button type="submit" class="navsearchbtn">Search<i class="fa fa-search"></i></button>
-            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href ="#">Gallery</a>
+                        <a class="nav-link" href ="Gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Culinary</a>
@@ -96,7 +94,7 @@
                             <a class="dropdown-item" href="#">Culinary News</a>
                             <a class="dropdown-item" href="#">View</a>
                             <a class="dropdown-item" href="#">About Pasgo</a>
-                            
+
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -115,7 +113,7 @@
     </nav>
 
 
-    <div class="container"> 
+    <div class="container">
 
 
         <section class="pasgo-search">
@@ -124,27 +122,27 @@
                     <div class="col-md-1.5 selectedtinh" style="margin-left: 1vh;">
                         <div class="input-group" >
                             <span class="input-group-addon">
-                                    <form action="/Base/ChangeProvince" method="post">                            
+                                    <form action="/Base/ChangeProvince" method="post">
                                             <select class="form-control first" id="provinceId" name="provinceId" onchange="this.form.submit();"style="border-radius: 34px;">
                                                 <option selected value="1">Hà Nội</option>
                                                 <option  value="2">TP.HCM</option>
                                                 <option  value="4">Đà Nẵng</option>
                                                 <option  value="5">Khánh Hòa</option>
                                             </select>
-                                     </form>                        
+                                     </form>
                                 </span>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-8">
         <form action="/tim-kiem" class="navbar-form navbar-right bar-bottom" method="get">                    <div class="input-group">
                                 <input id="textSearch" type="text" name="search" class="form-control" placeholder="Buffet, Hot Pot and Grill, Seafood..." onclick="searchWebsite();" oninput="searchWebsite();" autocomplete="off"style="border-radius: 34px;">
-                                <span class="input-group-addon" style="margin-left: 10px;">    
+                                <span class="input-group-addon" style="margin-left: 10px;">
                                     <select class="form-control selected" id="slTypeSearch" onchange="typeSearchSelected(this)"style="border-radius: 34px;">
                                         <option  value="1">Restaurant</option>
                                         <option  value="2">Explore</option>
                                         <option  value="3">Video</option>
-                                    </select> 
+                                    </select>
                                 </span>
                                 <span class="input-group-addon frm-search">
                                     <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span>Search</button>
@@ -172,6 +170,7 @@
                 <li data-target="#slides" data-slide-to="3" ></li>
             </ul>
             <div class="carousel-inner">
+                <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="fullHome/3-cach-lam-banh-trung-thu-de-lam-an-tai-nha-hay-lam-qua-deu-duoc-400-43590171546.jpg">
                     <div class="carousel-caption">
@@ -192,11 +191,12 @@
                     <img src="fullHome/day-la-cac-mon-dac-san-ha-noi-noi-tieng-nhat-may-chuc-nam-qua-400-152694113942.jpg">
                 </div>
             </div>
+            </div>
         </div>
 
         <div class="gallery">
-            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
-            
+            <h1>Bộ Sưu Tập | <small><small> <span style="color: red;"> PasGo là Mạng lưới nhà hàng ngon, nổi tiếng, nhiều loại hình – với hàng nghìn nhà hàng có mặt rộng khắp. Giúp đặt bàn nhà hàng miễn phí, tặng kèm ưu đãi.</span></small></small> </h1>
+
             <div class="row">
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
@@ -228,7 +228,7 @@
                         </a>
                     </div>
                 </div>
-                
+
             </div>
             <div class="allgallery">
                 <a href="#">See also &#x022D7;</a>
@@ -236,8 +236,8 @@
         </div>
 
         <div class="gallery">
-            <h1>Gallery | <small><small> <span style="color: red;"> the biggest</span></small></small> </h1>
-            
+            <h1>Ăn uống | <small><small> <span style="color: red;"> Nhà hàng</span></small></small> <small><small> <span style="color: red;"> Ăn uống</span></small></small> <small><small> <span style="color: red;"> Buffet</span></small></small></h1>
+
             <div class="row">
                 <div class="col-md-4 col-lg-4">
                     <div class="imagecontainer">
@@ -261,8 +261,8 @@
                                 <p>Lorem ipsum...</p>
                               </div>
                         </a>
-                        
-                            
+
+
                     </div>
                     <div>
                         <p id="discount">Lalalalalal<br>dadsadasda</p>
@@ -278,9 +278,9 @@
                             <p>Lalalalalal</p>
                           </div>
                         </a>
-                        
-                        
-                       
+
+
+
                     </div>
                     <div>
                         <p id="discount">Lalalalalal<br>dadsadasda</p>
@@ -297,9 +297,9 @@
                             <p>Lalalalalal</p>
                           </div>
                         </a>
-                        
-                        
-                       
+
+
+
                     </div>
                     <p id="discount">Lalalalalal<br>dadsadasda</p>
                     <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
@@ -313,9 +313,9 @@
                             <p>Lalalalalal</p>
                           </div>
                         </a>
-                        
-                        
-                       
+
+
+
                     </div>
                     <p id="discount">Lalalalalal<br>dadsadasda</p>
                     <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
@@ -329,9 +329,9 @@
                             <p>Lalalalalal</p>
                           </div>
                         </a>
-                        
-                        
-                       
+
+
+
                     </div>
                     <p id="discount">Lalalalalal<br>dadsadasda</p>
                     <button class="booktable"><a href="https://www.facebook.com/messages/t/100014540079469" target="blank">Book Table Now!</a></button>
@@ -340,7 +340,7 @@
             </div>
             <div class="allgallery">
                 <a href="#">See also &#x022D7;</a>
-                
+
             </div>
         </div>
     </div>
@@ -388,19 +388,19 @@
                         <div >
                             <div class="row">
                                 <div>
-                                    <form action="" class="navbar-form navbar-right bar-bottom" method="get">                    
+                                    <form action="" class="navbar-form navbar-right bar-bottom" method="get">
                                         <div class="input-group">
                                             <input id="email" type="text" name="youremail" placeholder="Your Email...." style="border-radius: 34px;margin-left:13px;width:230px;text-align:center">
                                             <span class="input-group-addon frm-search">
                                                 <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span>Regist</button>
                                             </span>
                                         </div>
-                                     </form>     
+                                     </form>
                                 </div>
-                            </div>       
+                            </div>
                         </div>
                     </section>
-            
+
                 </div>
             </div>
         </div>
@@ -410,6 +410,7 @@
 
 
 </body>
+<!-- Load Facebook SDK for JavaScript -->
 
 
 
