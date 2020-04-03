@@ -222,8 +222,8 @@
 						<span class="focus-input100"></span>
 					</div>
                     <button type="submit" class="loginbtn" name="reg_user">Register</button>
-                <p>
-                    Already a member? <a href="login.php">Sign in</a>
+                <p >
+                    Already a member? <a href="login.php" >Sign in</a>
                 </p>
             </form>
         </div>

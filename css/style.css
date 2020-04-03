@@ -257,6 +257,7 @@ html, body{
     min-height: 70%;
     width: 40%;
     color: black;
+    padding-bottom: 2vh;
 }
 .loginbtn{
     background-color: rgb(104, 235, 115);
