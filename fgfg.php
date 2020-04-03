@@ -9,10 +9,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/stye.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php include('errors.php'); ?>    
+    <?php include('errors.php'); ?>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="max-height: 6%;">
         <div class="container-fluid">
             <a class="navbar-branch" href="#">
@@ -95,7 +95,7 @@
                             <a class="dropdown-item" href="#">Culinary News</a>
                             <a class="dropdown-item" href="#">View</a>
                             <a class="dropdown-item" href="#">About Pasgo</a>
-                            
+
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -120,22 +120,22 @@
 		<div class="container-login" >
 			<div class="">
 				<form class="" method="post" action="login.php"  autocomplete="off">
-					
+
                     <div class="p-t-31 p-b-9" style="margin-top: 4vh">
 						<span class="txt1">
                             Phone Number
-                
+
 						</span>
 					</div>
 					<div>
 						<input class="uname" type="text" name="username">
 						<span class="focus-input100"></span>
 					</div>
-					
+
 					<div class="p-t-13 p-b-9" style="margin-top: 4vh">
 						<span class="txt1">
                             Password
-    
+
 						</span>
 
 						<a href="#" class="txt2 bo1 m-l-5">
@@ -165,7 +165,7 @@
 			</div>
 		</div>
 	</div>
-    
+
     <div class="instructor">
         <a></a>
         <img src="image/gd.png">
@@ -214,19 +214,19 @@
                         <div >
                             <div class="row">
                                 <div>
-                                    <form action="" class="navbar-form navbar-right bar-bottom" method="get">                    
+                                    <form action="" class="navbar-form navbar-right bar-bottom" method="get">
                                         <div class="input-group">
                                             <input id="email" type="text" name="youremail" placeholder="Your Email...." style="border-radius: 34px;margin-left:13px;width:230px;text-align:center">
                                             <span class="input-group-addon frm-search">
                                                 <button type="submit" class="sbutton"><span class="pasgo-icondesktop-search"></span>Regist</button>
                                             </span>
                                         </div>
-                                     </form>     
+                                     </form>
                                 </div>
-                            </div>       
+                            </div>
                         </div>
                     </section>
-            
+
                 </div>
             </div>
         </div>
