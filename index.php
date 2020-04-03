@@ -22,12 +22,12 @@
             </div>
             <li class="nav-item dropdown">
                 <button class="nav-link dropdown-toggle" href="login.php" id="navbardrop" data-toggle="dropdown" style="background-color: lightcyan; border:none;position: relative; margin-bottom:25px;margin-left:15px;border-radius:34px;height:30px;padding-bottom:30px;margin-right:10px">Member</button>
+
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="login.php">Login</a>
                     <a class="dropdown-item" href="register.php">Sign Up</a>
                 </div>
             </li>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -172,17 +172,23 @@
             <div class="carousel-inner">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="fullHome/chuoi-nha-hang-isushi-diem-den-cua-nhung-nguoi-yeu-am-thuc-nhat-116813501031.jpg">
-
+                    <img src="fullHome/3-cach-lam-banh-trung-thu-de-lam-an-tai-nha-hay-lam-qua-deu-duoc-400-43590171546.jpg">
+                    <div class="carousel-caption">
+                        <h1>Lalala</h1>
+                        <p></p>
+                        <button type="button" class="btn btn-danger" >
+                            Click
+                        </button>
+                    </div>
                 </div>
                 <div class="carousel-item ">
-                    <img src="fullHome/don-chicken-ga-chuan-vi-han-168060671104.jpg">
+                    <img src="fullHome/7-mau-trang-tri-sinh-nhat-cho-be-trai-tai-nha-voi-xe-o-to-cool-ngau-400-204127014025.jpg">
                 </div>
                 <div class="carousel-item ">
-                    <img src="fullHome/chuoi-nha-hang-king-bbq-vua-nuong-han-quoc-117443031097.jpg">
+                    <img src="fullHome/an-gi-o-sai-gon-ngon-re-top-20-noi-tieng-nay-la-cau-tra-loi-400-182525014114.jpg">
                 </div>
                 <div class="carousel-item ">
-                    <img src="fullHome/chuoi-nha-hang-buk-buk-an-khong-gioi-han-nuong-cang-me-say-91262051069.jpg">
+                    <img src="fullHome/day-la-cac-mon-dac-san-ha-noi-noi-tieng-nhat-may-chuc-nam-qua-400-152694113942.jpg">
                 </div>
             </div>
             </div>
