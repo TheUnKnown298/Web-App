@@ -54,8 +54,8 @@
 
 	// LOGIN USER
 	if (isset($_POST['login_user'])) {
-		$phone = mysqli_real_escape_string($db, $_POST['phone']);
-		$password = mysqli_real_escape_string($db, md5($_POST['pass']));
+		$phone = mysqli_real_escape_string($db, $_POST['username']);
+		$password = mysqli_real_escape_string($db, md5($_POST['pwd']));
 		// die($username . '| ' . $password);
 		if (empty($phone)) {
 			array_push($errors, "Phone number is required");

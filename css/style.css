@@ -6,11 +6,11 @@ html, body{
     font-family: 'Raleway';
     font-size: 16px;
     color: rgb(255, 255, 255);
-    background-color: #eeeeee;
+    background-color: lightgray;
 }
 
 .navbar{
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(242, 115, 118) !important;
     padding-right: 3vw;
 }
 .branch{
@@ -97,6 +97,7 @@ html, body{
 
 .sbutton{
     width: fit-content;
+
     height: 4vh;
     background: #4E9CAF;
     border-radius: 34px;
