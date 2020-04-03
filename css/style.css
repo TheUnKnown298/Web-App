@@ -247,6 +247,10 @@ html, body{
     text-align: center;
 
 }
+.container-regist{
+    text-align: center !important;
+    align-content: center;
+}
 .limiter{
     background-color: aliceblue;
     margin:1vh auto 0 auto;
@@ -275,6 +279,8 @@ html, body{
     border:2px solid rgb(236, 139, 139);
     box-shadow: 5px 10px 10px bisque;
     padding-left: 1vh;
+    margin-right: 5% !important;
+    margin-top: 1vh !important;
 }
 .pwd{
     width: 30vw;
